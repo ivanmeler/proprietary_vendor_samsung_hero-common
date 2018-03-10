@@ -61,6 +61,8 @@ PRODUCT_COPY_FILES += \
   vendor/samsung/hero-common/proprietary/lib64/libexynosv4l2.so:system/lib64/libexynosv4l2.so \
   vendor/samsung/hero-common/proprietary/lib/libsensorlistener.so:system/lib/libsensorlistener.so \
   vendor/samsung/hero-common/proprietary/lib64/libsensorlistener.so:system/lib64/libsensorlistener.so \
+  vendor/samsung/hero-common/proprietary/lib/libsensor.so:system/lib/libsensor.so \
+  vendor/samsung/hero-common/proprietary/lib64/libsensor.so:system/lib64/libsensor.so \
   vendor/samsung/hero-common/proprietary/lib/libuniapi.so:system/lib/libuniapi.so \
   vendor/samsung/hero-common/proprietary/lib64/libuniapi.so:system/lib64/libuniapi.so \
   vendor/samsung/hero-common/proprietary/lib/libuniplugin.so:system/lib/libuniplugin.so \
