@@ -51,8 +51,8 @@ PRODUCT_COPY_FILES += \
   vendor/samsung/hero-common/proprietary/etc/firmware/moon-dsp6-lpsd-control.bin:system/etc/firmware/moon-dsp6-lpsd-control.bin \
   vendor/samsung/hero-common/proprietary/vendor/firmware/bcm4359C0_V0118.0172_murata.hcd:system/vendor/firmware/bcm4359C0_V0118.0172_murata.hcd \
   vendor/samsung/hero-common/proprietary/vendor/firmware/bcm4359C0_V0118.0173_semco.hcd:system/vendor/firmware/bcm4359C0_V0118.0173_semco.hcd \
-  vendor/samsung/hero-common/proprietary/lib/hw/camera.exynos5.so:system/lib/hw/camera.exynos5.so \
-  vendor/samsung/hero-common/proprietary/lib64/hw/camera.exynos5.so:system/lib64/hw/camera.exynos5.so \
+  vendor/samsung/hero-common/proprietary/lib/hw/camera.exynos5.so:system/lib/hw/camera.vendor.exynos5.so \
+  vendor/samsung/hero-common/proprietary/lib64/hw/camera.exynos5.so:system/lib64/hw/camera.vendor.exynos5.so \
   vendor/samsung/hero-common/proprietary/lib/libexynoscamera3.so:system/lib/libexynoscamera3.so \
   vendor/samsung/hero-common/proprietary/lib64/libexynoscamera3.so:system/lib64/libexynoscamera3.so \
   vendor/samsung/hero-common/proprietary/lib/libexynoscamera.so:system/lib/libexynoscamera.so \
