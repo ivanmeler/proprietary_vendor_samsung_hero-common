@@ -58,10 +58,38 @@ PRODUCT_COPY_FILES += \
   vendor/samsung/hero-common/proprietary/lib64/libexynoscamera3.so:system/lib64/libexynoscamera3.so \
   vendor/samsung/hero-common/proprietary/lib/libexynoscamera.so:system/lib/libexynoscamera.so \
   vendor/samsung/hero-common/proprietary/lib64/libexynoscamera.so:system/lib64/libexynoscamera.so \
-  vendor/samsung/hero-common/proprietary/lib/libsensorlistener.so:system/lib/libsensorlistener.so \
-  vendor/samsung/hero-common/proprietary/lib64/libsensorlistener.so:system/lib64/libsensorlistener.so \
   vendor/samsung/hero-common/proprietary/lib/libsensor.so:system/lib/libsensor.so \
   vendor/samsung/hero-common/proprietary/lib64/libsensor.so:system/lib64/libsensor.so \
+  vendor/samsung/hero-common/proprietary/etc/gps_debug.conf:system/etc/gps_debug.conf \
+  vendor/samsung/hero-common/proprietary/lib/libsensorlistener.so:system/lib/libsensorlistener.so \
+  vendor/samsung/hero-common/proprietary/lib/libsensorservice.so:system/lib/libsensorservice.so \
+  vendor/samsung/hero-common/proprietary/lib64/libsensorlistener.so:system/lib64/libsensorlistener.so \
+  vendor/samsung/hero-common/proprietary/lib64/libsensorservice.so:system/lib64/libsensorservice.so \
+  vendor/samsung/hero-common/proprietary/vendor/bin/hw/gpsd:system/vendor/bin/hw/gpsd \
+  vendor/samsung/hero-common/proprietary/vendor/bin/hw/lhd:system/vendor/bin/hw/lhd \
+  vendor/samsung/hero-common/proprietary/vendor/bin/hw/vendor.samsung.hardware.gnss@1.0-service:system/vendor/bin/hw/vendor.samsung.hardware.gnss@1.0-service \
+  vendor/samsung/hero-common/proprietary/vendor/etc/gnss/gps.cer:system/vendor/etc/gnss/gps.cer \
+  vendor/samsung/hero-common/proprietary/vendor/etc/gnss/gps.xml:system/vendor/etc/gnss/gps.xml \
+  vendor/samsung/hero-common/proprietary/vendor/etc/init/vendor.samsung.hardware.gnss@1.0-service.rc:system/vendor/etc/init/vendor.samsung.hardware.gnss@1.0-service.rc \
+  vendor/samsung/hero-common/proprietary/vendor/etc/sensor/lhd.conf:system/vendor/etc/sensor/lhd.conf \
+  vendor/samsung/hero-common/proprietary/vendor/etc/sensors/hals.conf:system/vendor/etc/sensors/hals.conf \
+  vendor/samsung/hero-common/proprietary/vendor/lib/hw/vendor.samsung.hardware.gnss@1.0-impl.so:system/vendor/lib/hw/vendor.samsung.hardware.gnss@1.0-impl.so \
+  vendor/samsung/hero-common/proprietary/vendor/lib/libsensorndkbridge.so:system/vendor/lib/libsensorndkbridge.so \
+  vendor/samsung/hero-common/proprietary/vendor/lib/libwrappergps.so:system/vendor/lib/libwrappergps.so \
+  vendor/samsung/hero-common/proprietary/vendor/lib/sensors.bio.so:system/vendor/lib/sensors.bio.so \
+  vendor/samsung/hero-common/proprietary/vendor/lib/sensors.grip.so:system/vendor/lib/sensors.grip.so \
+  vendor/samsung/hero-common/proprietary/vendor/lib/sensors.sensorhub.so:system/vendor/lib/sensors.sensorhub.so \
+  vendor/samsung/hero-common/proprietary/vendor/lib/vendor.samsung.hardware.gnss@1.0.so:system/vendor/lib/vendor.samsung.hardware.gnss@1.0.so \
+  vendor/samsung/hero-common/proprietary/vendor/lib64/hw/vendor.samsung.hardware.gnss@1.0-impl.so:system/vendor/lib64/hw/vendor.samsung.hardware.gnss@1.0-impl.so \
+  vendor/samsung/hero-common/proprietary/vendor/lib64/hw/gps.default.so:system/vendor/lib64/hw/gps.default.so \
+  vendor/samsung/hero-common/proprietary/vendor/lib64/libagc_max.so:system/vendor/lib64/libagc_max.so \
+  vendor/samsung/hero-common/proprietary/vendor/lib64/libhr.so:system/vendor/lib64/libhr.so \
+  vendor/samsung/hero-common/proprietary/vendor/lib64/libmaxflicker.so:system/vendor/lib64/libmaxflicker.so \
+  vendor/samsung/hero-common/proprietary/vendor/lib64/libwrappergps.so:system/vendor/lib64/libwrappergps.so \
+  vendor/samsung/hero-common/proprietary/vendor/lib64/sensors.bio.so:system/vendor/lib64/sensors.bio.so \
+  vendor/samsung/hero-common/proprietary/vendor/lib64/sensors.grip.so:system/vendor/lib64/sensors.grip.so \
+  vendor/samsung/hero-common/proprietary/vendor/lib64/sensors.sensorhub.so:system/vendor/lib64/sensors.sensorhub.so \
+  vendor/samsung/hero-common/proprietary/vendor/lib64/vendor.samsung.hardware.gnss@1.0.so:system/vendor/lib64/vendor.samsung.hardware.gnss@1.0.so \
   vendor/samsung/hero-common/proprietary/lib/libuniapi.so:system/lib/libuniapi.so \
   vendor/samsung/hero-common/proprietary/lib64/libuniapi.so:system/lib64/libuniapi.so \
   vendor/samsung/hero-common/proprietary/lib/libuniplugin.so:system/lib/libuniplugin.so \
@@ -105,11 +133,6 @@ PRODUCT_COPY_FILES += \
   vendor/samsung/hero-common/proprietary/lib64/libbauthtzcommon.so:system/lib64/libbauthtzcommon.so \
   vendor/samsung/hero-common/proprietary/lib64/libegis_fp_normal_sensor_test.so:system/lib64/libegis_fp_normal_sensor_test.so \
   vendor/samsung/hero-common/proprietary/lib64/libsynaFpSensorTestNwd.so:system/lib64/libsynaFpSensorTestNwd.so \
-  vendor/samsung/hero-common/proprietary/bin/gps.cer:system/bin/gps.cer \
-  vendor/samsung/hero-common/proprietary/bin/gpsd:system/bin/gpsd \
-  vendor/samsung/hero-common/proprietary/lib64/hw/gps.default.so:system/lib64/hw/gps.default.so \
-  vendor/samsung/hero-common/proprietary/lib/libwrappergps.so:system/lib/libwrappergps.so \
-  vendor/samsung/hero-common/proprietary/lib64/libwrappergps.so:system/lib64/libwrappergps.so \
   vendor/samsung/hero-common/proprietary/lib/libfloatingfeature.so:system/lib/libfloatingfeature.so \
   vendor/samsung/hero-common/proprietary/lib64/libfloatingfeature.so:system/lib64/libfloatingfeature.so \
   vendor/samsung/hero-common/proprietary/vendor/lib/egl/libGLES_mali.so:system/vendor/lib/egl/libGLES_mali.so \
@@ -197,18 +220,6 @@ PRODUCT_COPY_FILES += \
   vendor/samsung/hero-common/proprietary/lib/libprotobuf-cpp-N.so:system/lib/libprotobuf-cpp-N.so \
   vendor/samsung/hero-common/proprietary/lib/libsecnativefeature.so:system/lib/libsecnativefeature.so \
   vendor/samsung/hero-common/proprietary/lib64/libsecnativefeature.so:system/lib64/libsecnativefeature.so \
-  vendor/samsung/hero-common/proprietary/lib64/libhr.so:system/lib64/libhr.so \
-  vendor/samsung/hero-common/proprietary/etc/lhd.conf:system/etc/lhd.conf \
-  vendor/samsung/hero-common/proprietary/bin/lhd:system/bin/lhd \
-  vendor/samsung/hero-common/proprietary/bin/bcm_sensorhub_a1.patch:system/bin/bcm_sensorhub_a1.patch \
-  vendor/samsung/hero-common/proprietary/lib/hw/sensorhubs.universal8890.so:system/lib/hw/sensorhubs.universal8890.so \
-  vendor/samsung/hero-common/proprietary/lib/hw/sensors.universal8890.so:system/lib/hw/sensors.universal8890.so \
-  vendor/samsung/hero-common/proprietary/lib/libsensorservice.so:system/lib/libsensorservice.so \
-  vendor/samsung/hero-common/proprietary/lib64/hw/sensorhubs.universal8890.so:system/lib64/hw/sensorhubs.universal8890.so \
-  vendor/samsung/hero-common/proprietary/lib64/hw/sensors.universal8890.so:system/lib64/hw/sensors.universal8890.so \
-  vendor/samsung/hero-common/proprietary/lib64/libagc_max.so:system/lib64/libagc_max.so \
-  vendor/samsung/hero-common/proprietary/lib64/libmaxflicker.so:system/lib64/libmaxflicker.so \
-  vendor/samsung/hero-common/proprietary/lib64/libsensorservice.so:system/lib64/libsensorservice.so \
   vendor/samsung/hero-common/proprietary/lib/libion.so:system/lib/libion.so \
   vendor/samsung/hero-common/proprietary/lib64/libion.so:system/lib64/libion.so \
   vendor/samsung/hero-common/proprietary/etc/wifi/bcmdhd_apsta.bin_b1:system/etc/wifi/bcmdhd_apsta.bin_b1 \
