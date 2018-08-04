@@ -90,8 +90,8 @@ PRODUCT_COPY_FILES += \
   vendor/samsung/hero-common/proprietary/etc/firmware/moon-dsp5-dsm.wmfw:system/etc/firmware/moon-dsp5-dsm.wmfw \
   vendor/samsung/hero-common/proprietary/etc/firmware/moon-dsp6-ez2-control.wmfw:system/etc/firmware/moon-dsp6-ez2-control.wmfw \
   vendor/samsung/hero-common/proprietary/etc/firmware/moon-dsp6-lpsd-control.bin:system/etc/firmware/moon-dsp6-lpsd-control.bin \
-  vendor/samsung/hero-common/proprietary/vendor/firmware/bcm4359C0_V0118.0172_murata.hcd:system/vendor/firmware/bcm4359C0_V0118.0172_murata.hcd \
-  vendor/samsung/hero-common/proprietary/vendor/firmware/bcm4359C0_V0118.0173_semco.hcd:system/vendor/firmware/bcm4359C0_V0118.0173_semco.hcd \
+  vendor/samsung/hero-common/proprietary/vendor/firmware/bcm4359C0_V0135.0265_murata.hcd:system/vendor/firmware/bcm4359C0_V0135.0265_murata.hcd \
+  vendor/samsung/hero-common/proprietary/vendor/firmware/bcm4359C0_V0135.0266_semco.hcd:system/vendor/firmware/bcm4359C0_V0135.0266_semco.hcd \
   vendor/samsung/hero-common/proprietary/lib/hw/camera.exynos5.so:system/lib/hw/camera.vendor.exynos5.so \
   vendor/samsung/hero-common/proprietary/lib64/hw/camera.exynos5.so:system/lib64/hw/camera.vendor.exynos5.so \
   vendor/samsung/hero-common/proprietary/lib/libexynoscamera3.so:system/lib/libexynoscamera3.so \
@@ -248,41 +248,42 @@ PRODUCT_COPY_FILES += \
   vendor/samsung/hero-common/proprietary/lib/libprotobuf-cpp-N.so:system/lib/libprotobuf-cpp-N.so \
   vendor/samsung/hero-common/proprietary/lib/libion.so:system/lib/libion.so \
   vendor/samsung/hero-common/proprietary/lib64/libion.so:system/lib64/libion.so \
-  vendor/samsung/hero-common/proprietary/etc/wifi/bcmdhd_apsta.bin_b1:system/etc/wifi/bcmdhd_apsta.bin_b1 \
-  vendor/samsung/hero-common/proprietary/etc/wifi/bcmdhd_apsta.bin_b90s_b1:system/etc/wifi/bcmdhd_apsta.bin_b90s_b1 \
-  vendor/samsung/hero-common/proprietary/etc/wifi/bcmdhd_apsta.bin_c0:system/etc/wifi/bcmdhd_apsta.bin_c0 \
-  vendor/samsung/hero-common/proprietary/etc/wifi/bcmdhd_ibss.bin_b1:system/etc/wifi/bcmdhd_ibss.bin_b1 \
-  vendor/samsung/hero-common/proprietary/etc/wifi/bcmdhd_ibss.bin_b90s_b1:system/etc/wifi/bcmdhd_ibss.bin_b90s_b1 \
-  vendor/samsung/hero-common/proprietary/etc/wifi/bcmdhd_ibss.bin_c0:system/etc/wifi/bcmdhd_ibss.bin_c0 \
-  vendor/samsung/hero-common/proprietary/etc/wifi/bcmdhd_mfg.bin_b1:system/etc/wifi/bcmdhd_mfg.bin_b1 \
-  vendor/samsung/hero-common/proprietary/etc/wifi/bcmdhd_mfg.bin_b90s_b1:system/etc/wifi/bcmdhd_mfg.bin_b90s_b1 \
-  vendor/samsung/hero-common/proprietary/etc/wifi/bcmdhd_mfg.bin_c0:system/etc/wifi/bcmdhd_mfg.bin_c0 \
-  vendor/samsung/hero-common/proprietary/etc/wifi/bcmdhd_mfg2.bin_b1:system/etc/wifi/bcmdhd_mfg2.bin_b1 \
-  vendor/samsung/hero-common/proprietary/etc/wifi/bcmdhd_mfg2.bin_b90s_b1:system/etc/wifi/bcmdhd_mfg2.bin_b90s_b1 \
-  vendor/samsung/hero-common/proprietary/etc/wifi/bcmdhd_mfg2.bin_c0:system/etc/wifi/bcmdhd_mfg2.bin_c0 \
-  vendor/samsung/hero-common/proprietary/etc/wifi/bcmdhd_sta.bin_b1:system/etc/wifi/bcmdhd_sta.bin_b1 \
-  vendor/samsung/hero-common/proprietary/etc/wifi/bcmdhd_sta.bin_b90s_b1:system/etc/wifi/bcmdhd_sta.bin_b90s_b1 \
-  vendor/samsung/hero-common/proprietary/etc/wifi/bcmdhd_sta.bin_c0:system/etc/wifi/bcmdhd_sta.bin_c0 \
-  vendor/samsung/hero-common/proprietary/etc/wifi/nvram_mfg.txt:system/etc/wifi/nvram_mfg.txt \
-  vendor/samsung/hero-common/proprietary/etc/wifi/nvram_mfg.txt_b1:system/etc/wifi/nvram_mfg.txt_b1 \
-  vendor/samsung/hero-common/proprietary/etc/wifi/nvram_mfg.txt_c0:system/etc/wifi/nvram_mfg.txt_c0 \
-  vendor/samsung/hero-common/proprietary/etc/wifi/nvram_mfg.txt_murata:system/etc/wifi/nvram_mfg.txt_murata \
-  vendor/samsung/hero-common/proprietary/etc/wifi/nvram_mfg.txt_murata_b1:system/etc/wifi/nvram_mfg.txt_murata_b1 \
-  vendor/samsung/hero-common/proprietary/etc/wifi/nvram_mfg.txt_murata_c0:system/etc/wifi/nvram_mfg.txt_murata_c0 \
-  vendor/samsung/hero-common/proprietary/etc/wifi/nvram_mfg.txt_wisol:system/etc/wifi/nvram_mfg.txt_wisol \
-  vendor/samsung/hero-common/proprietary/etc/wifi/nvram_mfg.txt_wisol_b1:system/etc/wifi/nvram_mfg.txt_wisol_b1 \
-  vendor/samsung/hero-common/proprietary/etc/wifi/nvram_mfg.txt_wisol_c0:system/etc/wifi/nvram_mfg.txt_wisol_c0 \
-  vendor/samsung/hero-common/proprietary/etc/wifi/nvram_net.txt:system/etc/wifi/nvram_net.txt \
-  vendor/samsung/hero-common/proprietary/etc/wifi/nvram_net.txt_b1:system/etc/wifi/nvram_net.txt_b1 \
-  vendor/samsung/hero-common/proprietary/etc/wifi/nvram_net.txt_c0:system/etc/wifi/nvram_net.txt_c0 \
-  vendor/samsung/hero-common/proprietary/etc/wifi/nvram_net.txt_murata:system/etc/wifi/nvram_net.txt_murata \
-  vendor/samsung/hero-common/proprietary/etc/wifi/nvram_net.txt_murata_b1:system/etc/wifi/nvram_net.txt_murata_b1 \
-  vendor/samsung/hero-common/proprietary/etc/wifi/nvram_net.txt_murata_c0:system/etc/wifi/nvram_net.txt_murata_c0 \
-  vendor/samsung/hero-common/proprietary/etc/wifi/nvram_net.txt_wisol:system/etc/wifi/nvram_net.txt_wisol \
-  vendor/samsung/hero-common/proprietary/etc/wifi/nvram_net.txt_wisol_b1:system/etc/wifi/nvram_net.txt_wisol_b1 \
-  vendor/samsung/hero-common/proprietary/etc/wifi/nvram_net.txt_wisol_c0:system/etc/wifi/nvram_net.txt_wisol_c0 \
-  vendor/samsung/hero-common/proprietary/etc/wifi/cred.conf:system/etc/wifi/cred.conf \
-  vendor/samsung/hero-common/proprietary/etc/wifi/p2p_supplicant_overlay.conf:system/etc/wifi/p2p_supplicant_overlay.conf \
-  vendor/samsung/hero-common/proprietary/etc/wifi/wpa_supplicant.conf:system/etc/wifi/wpa_supplicant.conf \
-  vendor/samsung/hero-common/proprietary/etc/wifi/wpa_supplicant_overlay.conf:system/etc/wifi/wpa_supplicant_overlay.conf \
+  vendor/samsung/hero-common/proprietary/vendor/etc/wifi/indoorchannel.info:system/vendor/etc/wifi/indoorchannel.info \
+  vendor/samsung/hero-common/proprietary/vendor/etc/wifi/bcmdhd_apsta.bin_b1:system/vendor/etc/wifi/bcmdhd_apsta.bin_b1 \
+  vendor/samsung/hero-common/proprietary/vendor/etc/wifi/bcmdhd_apsta.bin_b90s_b1:system/vendor/etc/wifi/bcmdhd_apsta.bin_b90s_b1 \
+  vendor/samsung/hero-common/proprietary/vendor/etc/wifi/bcmdhd_apsta.bin_c0:system/vendor/etc/wifi/bcmdhd_apsta.bin_c0 \
+  vendor/samsung/hero-common/proprietary/vendor/etc/wifi/bcmdhd_ibss.bin_b1:system/vendor/etc/wifi/bcmdhd_ibss.bin_b1 \
+  vendor/samsung/hero-common/proprietary/vendor/etc/wifi/bcmdhd_ibss.bin_b90s_b1:system/vendor/etc/wifi/bcmdhd_ibss.bin_b90s_b1 \
+  vendor/samsung/hero-common/proprietary/vendor/etc/wifi/bcmdhd_ibss.bin_c0:system/vendor/etc/wifi/bcmdhd_ibss.bin_c0 \
+  vendor/samsung/hero-common/proprietary/vendor/etc/wifi/bcmdhd_mfg.bin_b1:system/vendor/etc/wifi/bcmdhd_mfg.bin_b1 \
+  vendor/samsung/hero-common/proprietary/vendor/etc/wifi/bcmdhd_mfg.bin_b90s_b1:system/vendor/etc/wifi/bcmdhd_mfg.bin_b90s_b1 \
+  vendor/samsung/hero-common/proprietary/vendor/etc/wifi/bcmdhd_mfg.bin_c0:system/vendor/etc/wifi/bcmdhd_mfg.bin_c0 \
+  vendor/samsung/hero-common/proprietary/vendor/etc/wifi/bcmdhd_mfg2.bin_b1:system/vendor/etc/wifi/bcmdhd_mfg2.bin_b1 \
+  vendor/samsung/hero-common/proprietary/vendor/etc/wifi/bcmdhd_mfg2.bin_b90s_b1:system/vendor/etc/wifi/bcmdhd_mfg2.bin_b90s_b1 \
+  vendor/samsung/hero-common/proprietary/vendor/etc/wifi/bcmdhd_mfg2.bin_c0:system/vendor/etc/wifi/bcmdhd_mfg2.bin_c0 \
+  vendor/samsung/hero-common/proprietary/vendor/etc/wifi/bcmdhd_sta.bin_b1:system/vendor/etc/wifi/bcmdhd_sta.bin_b1 \
+  vendor/samsung/hero-common/proprietary/vendor/etc/wifi/bcmdhd_sta.bin_b90s_b1:system/vendor/etc/wifi/bcmdhd_sta.bin_b90s_b1 \
+  vendor/samsung/hero-common/proprietary/vendor/etc/wifi/bcmdhd_sta.bin_c0:system/vendor/etc/wifi/bcmdhd_sta.bin_c0 \
+  vendor/samsung/hero-common/proprietary/vendor/etc/wifi/nvram_mfg.txt:system/vendor/etc/wifi/nvram_mfg.txt \
+  vendor/samsung/hero-common/proprietary/vendor/etc/wifi/nvram_mfg.txt_b1:system/vendor/etc/wifi/nvram_mfg.txt_b1 \
+  vendor/samsung/hero-common/proprietary/vendor/etc/wifi/nvram_mfg.txt_c0:system/vendor/etc/wifi/nvram_mfg.txt_c0 \
+  vendor/samsung/hero-common/proprietary/vendor/etc/wifi/nvram_mfg.txt_murata:system/vendor/etc/wifi/nvram_mfg.txt_murata \
+  vendor/samsung/hero-common/proprietary/vendor/etc/wifi/nvram_mfg.txt_murata_b1:system/vendor/etc/wifi/nvram_mfg.txt_murata_b1 \
+  vendor/samsung/hero-common/proprietary/vendor/etc/wifi/nvram_mfg.txt_murata_c0:system/vendor/etc/wifi/nvram_mfg.txt_murata_c0 \
+  vendor/samsung/hero-common/proprietary/vendor/etc/wifi/nvram_mfg.txt_wisol:system/vendor/etc/wifi/nvram_mfg.txt_wisol \
+  vendor/samsung/hero-common/proprietary/vendor/etc/wifi/nvram_mfg.txt_wisol_b1:system/vendor/etc/wifi/nvram_mfg.txt_wisol_b1 \
+  vendor/samsung/hero-common/proprietary/vendor/etc/wifi/nvram_mfg.txt_wisol_c0:system/vendor/etc/wifi/nvram_mfg.txt_wisol_c0 \
+  vendor/samsung/hero-common/proprietary/vendor/etc/wifi/nvram_net.txt:system/vendor/etc/wifi/nvram_net.txt \
+  vendor/samsung/hero-common/proprietary/vendor/etc/wifi/nvram_net.txt_b1:system/vendor/etc/wifi/nvram_net.txt_b1 \
+  vendor/samsung/hero-common/proprietary/vendor/etc/wifi/nvram_net.txt_c0:system/vendor/etc/wifi/nvram_net.txt_c0 \
+  vendor/samsung/hero-common/proprietary/vendor/etc/wifi/nvram_net.txt_murata:system/vendor/etc/wifi/nvram_net.txt_murata \
+  vendor/samsung/hero-common/proprietary/vendor/etc/wifi/nvram_net.txt_murata_b1:system/vendor/etc/wifi/nvram_net.txt_murata_b1 \
+  vendor/samsung/hero-common/proprietary/vendor/etc/wifi/nvram_net.txt_murata_c0:system/vendor/etc/wifi/nvram_net.txt_murata_c0 \
+  vendor/samsung/hero-common/proprietary/vendor/etc/wifi/nvram_net.txt_wisol:system/vendor/etc/wifi/nvram_net.txt_wisol \
+  vendor/samsung/hero-common/proprietary/vendor/etc/wifi/nvram_net.txt_wisol_b1:system/vendor/etc/wifi/nvram_net.txt_wisol_b1 \
+  vendor/samsung/hero-common/proprietary/vendor/etc/wifi/nvram_net.txt_wisol_c0:system/vendor/etc/wifi/nvram_net.txt_wisol_c0 \
+  vendor/samsung/hero-common/proprietary/vendor/etc/wifi/cred.conf:system/vendor/etc/wifi/cred.conf \
+  vendor/samsung/hero-common/proprietary/vendor/etc/wifi/p2p_supplicant_overlay.conf:system/vendor/etc/wifi/p2p_supplicant_overlay.conf \
+  vendor/samsung/hero-common/proprietary/vendor/etc/wifi/wpa_supplicant.conf:system/vendor/etc/wifi/wpa_supplicant.conf \
+  vendor/samsung/hero-common/proprietary/vendor/etc/wifi/wpa_supplicant_overlay.conf:system/vendor/etc/wifi/wpa_supplicant_overlay.conf \
   vendor/samsung/hero-common/proprietary/sbin/cbd:root/sbin/cbd
