@@ -15,6 +15,14 @@
 PRODUCT_COPY_FILES += \
   vendor/samsung/hero-common/proprietary/vendor/lib64/libsecril-client.so:system/lib64/libsecril-client.so \
   vendor/samsung/hero-common/proprietary/vendor/lib/libsecril-client.so:system/lib/libsecril-client.so \
+  vendor/samsung/hero-common/proprietary/lib64/libGrallocWrapper.so:system/lib64/libGrallocWrapper.so \
+  vendor/samsung/hero-common/proprietary/lib/libGrallocWrapper.so:system/lib/libGrallocWrapper.so \
+  vendor/samsung/hero-common/proprietary/lib64/libuniapi.so:system/lib64/libuniapi.so \
+  vendor/samsung/hero-common/proprietary/lib/libuniapi.so:system/lib/libuniapi.so \
+  vendor/samsung/hero-common/proprietary/lib64/libexynosgscaler.so:system/lib64/libexynosgscaler.so \
+  vendor/samsung/hero-common/proprietary/lib/libexynosgscaler.so:system/lib/libexynosgscaler.so \
+  vendor/samsung/hero-common/proprietary/lib64/libexynosscaler.so:system/lib64/libexynosscaler.so \
+  vendor/samsung/hero-common/proprietary/lib/libexynosscaler.so:system/lib/libexynosscaler.so \
   vendor/samsung/hero-common/proprietary/app/FFFFFFFF000000000000000000000001.drbin:system/app/FFFFFFFF000000000000000000000001.drbin \
   vendor/samsung/hero-common/proprietary/app/mcRegistry/ffffffff00000000000000000000000e.tlbin:system/app/mcRegistry/ffffffff00000000000000000000000e.tlbin \
   vendor/samsung/hero-common/proprietary/app/mcRegistry/ffffffffd0000000000000000000000e.tlbin:system/app/mcRegistry/ffffffffd0000000000000000000000e.tlbin \
@@ -58,8 +66,8 @@ PRODUCT_COPY_FILES += \
   vendor/samsung/hero-common/proprietary/etc/gps_debug.conf:system/etc/gps_debug.conf \
   vendor/samsung/hero-common/proprietary/etc/nfc/sec_s3nrn81_rfreg.bin:system/etc/nfc/sec_s3nrn81_rfreg.bin \
   vendor/samsung/hero-common/proprietary/etc/nfc/THL/sec_s3nrn81_rfreg.bin:system/etc/nfc/THL/sec_s3nrn81_rfreg.bin \
-  vendor/samsung/hero-common/proprietary/lib/hw/camera.vendor.exynos5.so:system/lib/hw/camera.vendor.exynos5.so \
-  vendor/samsung/hero-common/proprietary/lib/hw/gralloc.vendor.exynos5.so:system/lib/hw/gralloc.vendor.exynos5.so \
+  vendor/samsung/hero-common/proprietary/lib/hw/camera.exynos5.so:system/lib/hw/camera.exynos5.so \
+  vendor/samsung/hero-common/proprietary/lib/hw/gralloc.exynos5.so:system/lib/hw/gralloc.exynos5.so \
   vendor/samsung/hero-common/proprietary/lib/libcsc.so:system/lib/libcsc.so \
   vendor/samsung/hero-common/proprietary/lib/libexynoscamera.so:system/lib/libexynoscamera.so \
   vendor/samsung/hero-common/proprietary/lib/libexynoscamera3.so:system/lib/libexynoscamera3.so \
@@ -90,8 +98,8 @@ PRODUCT_COPY_FILES += \
   vendor/samsung/hero-common/proprietary/lib/omx/libOMX.Exynos.VP9.Decoder.so:system/lib/omx/libOMX.Exynos.VP9.Decoder.so \
   vendor/samsung/hero-common/proprietary/lib/omx/libOMX.Exynos.VP9.Encoder.so:system/lib/omx/libOMX.Exynos.VP9.Encoder.so \
   vendor/samsung/hero-common/proprietary/lib/omx/libOMX.Exynos.WMV.Decoder.so:system/lib/omx/libOMX.Exynos.WMV.Decoder.so \
-  vendor/samsung/hero-common/proprietary/lib64/hw/camera.vendor.exynos5.so:system/lib64/hw/camera.vendor.exynos5.so \
-  vendor/samsung/hero-common/proprietary/lib64/hw/gralloc.vendor.exynos5.so:system/lib64/hw/gralloc.vendor.exynos5.so \
+  vendor/samsung/hero-common/proprietary/lib64/hw/camera.exynos5.so:system/lib64/hw/camera.exynos5.so \
+  vendor/samsung/hero-common/proprietary/lib64/hw/gralloc.exynos5.so:system/lib64/hw/gralloc.exynos5.so \
   vendor/samsung/hero-common/proprietary/lib64/libbauthserver.so:system/lib64/libbauthserver.so \
   vendor/samsung/hero-common/proprietary/lib64/libbauthtzcommon.so:system/lib64/libbauthtzcommon.so \
   vendor/samsung/hero-common/proprietary/lib64/libcsc.so:system/lib64/libcsc.so \
