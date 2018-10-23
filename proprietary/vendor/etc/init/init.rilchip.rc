@@ -23,9 +23,6 @@ on property:persist.sys.cpboot=disable
     stop ril-daemon
     stop cpboot-daemon
 
-on property:telephony.lteOnCdmaDevice=1
-    start VC-daemon
-
 on early-boot
 # Assign TCP buffer thresholds to be ceiling value of technology maximums
 # Increased technology maximums should be reflected here.
