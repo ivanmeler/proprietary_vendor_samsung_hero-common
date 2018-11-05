@@ -13,6 +13,12 @@
 # limitations under the License.
 
 PRODUCT_COPY_FILES += \
+  vendor/samsung/hero-common/proprietary/lib/android.hardware.radio.deprecated@1.0-26.so:system/lib/android.hardware.radio.deprecated@1.0-26.so \
+  vendor/samsung/hero-common/proprietary/lib64/android.hardware.radio.deprecated@1.0-26.so:system/lib64/android.hardware.radio.deprecated@1.0-26.so \
+  vendor/samsung/hero-common/proprietary/lib/android.hardware.radio@1.0-26.so:system/lib/android.hardware.radio@1.0-26.so \
+  vendor/samsung/hero-common/proprietary/lib64/android.hardware.radio@1.0-26.so:system/lib64/android.hardware.radio@1.0-26.so \
+  vendor/samsung/hero-common/proprietary/lib64/android.hardware.gnss@1.0-26.so:system/lib64/android.hardware.gnss@1.0-26.so \
+  vendor/samsung/hero-common/proprietary/lib/android.hardware.gnss@1.0-26.so:system/lib/android.hardware.gnss@1.0-26.so \
   vendor/samsung/hero-common/proprietary/vendor/lib64/libsecril-client.so:system/lib64/libsecril-client.so \
   vendor/samsung/hero-common/proprietary/vendor/lib/libsecril-client.so:system/lib/libsecril-client.so \
   vendor/samsung/hero-common/proprietary/lib64/libGrallocWrapper.so:system/lib64/libGrallocWrapper.so \
