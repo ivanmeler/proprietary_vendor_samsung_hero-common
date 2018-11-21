@@ -191,6 +191,8 @@ PRODUCT_COPY_FILES += \
   vendor/samsung/hero-common/proprietary/vendor/etc/wifi/p2p_supplicant_overlay.conf:system/vendor/etc/wifi/p2p_supplicant_overlay.conf \
   vendor/samsung/hero-common/proprietary/vendor/etc/wifi/wpa_supplicant.conf:system/vendor/etc/wifi/wpa_supplicant.conf \
   vendor/samsung/hero-common/proprietary/vendor/etc/wifi/wpa_supplicant_overlay.conf:system/vendor/etc/wifi/wpa_supplicant_overlay.conf \
+  vendor/samsung/hero-common/proprietary/vendor/firmware/bcm4359C0_V0147.0335_murata.hcd:system/vendor/firmware/bcm4359C0_V0147.0335_murata.hcd \
+  vendor/samsung/hero-common/proprietary/vendor/firmware/bcm4359C0_V0147.0336_semco.hcd:system/vendor/firmware/bcm4359C0_V0147.0336_semco.hcd \
   vendor/samsung/hero-common/proprietary/vendor/firmware/bcm4359C0_V0135.0265_murata.hcd:system/vendor/firmware/bcm4359C0_V0135.0265_murata.hcd \
   vendor/samsung/hero-common/proprietary/vendor/firmware/bcm4359C0_V0135.0266_semco.hcd:system/vendor/firmware/bcm4359C0_V0135.0266_semco.hcd \
   vendor/samsung/hero-common/proprietary/vendor/firmware/bcm4359C0_V0138.0278_murata.hcd:system/vendor/firmware/bcm4359C0_V0138.0278_murata.hcd \
