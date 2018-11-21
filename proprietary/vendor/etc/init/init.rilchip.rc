@@ -35,3 +35,4 @@ on property:init.svc.ril-daemon1=restarting
 on post-fs-data
     mkdir /efs/imei 0775 root radio
     restorecon -R /efs/imei
+
