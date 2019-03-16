@@ -13,6 +13,8 @@
 # limitations under the License.
 
 PRODUCT_COPY_FILES += \
+  vendor/samsung/hero-common/proprietary/lib64/libaptXHD_encoder.so:system/lib64/libaptXHD_encoder.so \
+  vendor/samsung/hero-common/proprietary/lib64/libaptX_encoder.so:system/lib64/libaptX_encoder.so \
   vendor/samsung/hero-common/proprietary/etc/permissions/android.hardware.sensor.heartrate.xml:system/etc/permissions/android.hardware.sensor.heartrate.xml \
   vendor/samsung/hero-common/proprietary/etc/permissions/com.sec.feature.spo2.xml:system/etc/permissions/com.sec.feature.spo2.xml \
   vendor/samsung/hero-common/proprietary/etc/permissions/privapp-permissions-com.sec.android.app.shealth.xml:system/etc/permissions/privapp-permissions-com.sec.android.app.shealth.xml \
