@@ -13,6 +13,18 @@
 # limitations under the License.
 
 PRODUCT_COPY_FILES += \
+  vendor/samsung/hero-common/proprietary/etc/permissions/android.hardware.sensor.heartrate.xml:system/etc/permissions/android.hardware.sensor.heartrate.xml \
+  vendor/samsung/hero-common/proprietary/etc/permissions/com.sec.feature.spo2.xml:system/etc/permissions/com.sec.feature.spo2.xml \
+  vendor/samsung/hero-common/proprietary/etc/permissions/privapp-permissions-com.sec.android.app.shealth.xml:system/etc/permissions/privapp-permissions-com.sec.android.app.shealth.xml \
+  vendor/samsung/hero-common/proprietary/etc/permissions/privapp-permissions-com.sec.android.service.health.xml:system/etc/permissions/privapp-permissions-com.sec.android.service.health.xml \
+  vendor/samsung/hero-common/proprietary/etc/secure_storage/com.sec.android.service.health/ss_id:system/etc/secure_storage/com.sec.android.service.health/ss_id \
+  vendor/samsung/hero-common/proprietary/etc/secure_storage/com.sec.android.service.health!dex/ss_id:system/etc/secure_storage/com.sec.android.service.health!dex/ss_id \
+  vendor/samsung/hero-common/proprietary/priv-app/HealthService/lib/arm/libPlatformStrings.so:system/priv-app/HealthService/lib/arm/libPlatformStrings.so \
+  vendor/samsung/hero-common/proprietary/priv-app/HealthService/lib/arm64/libPlatformStrings.so:system/priv-app/HealthService/lib/arm64/libPlatformStrings.so \
+  vendor/samsung/hero-common/proprietary/vendor/lib/libsecure_storage.so:system/vendor/lib/libsecure_storage.so \
+  vendor/samsung/hero-common/proprietary/vendor/lib/libsecure_storage_jni.so:system/vendor/lib/libsecure_storage_jni.so \
+  vendor/samsung/hero-common/proprietary/vendor/lib64/libsecure_storage.so:system/vendor/lib64/libsecure_storage.so \
+  vendor/samsung/hero-common/proprietary/vendor/lib64/libsecure_storage_jni.so:system/vendor/lib64/libsecure_storage_jni.so \
   vendor/samsung/hero-common/proprietary/lib/android.hardware.radio.deprecated@1.0-26.so:system/lib/android.hardware.radio.deprecated@1.0-26.so \
   vendor/samsung/hero-common/proprietary/lib64/android.hardware.radio.deprecated@1.0-26.so:system/lib64/android.hardware.radio.deprecated@1.0-26.so \
   vendor/samsung/hero-common/proprietary/lib/android.hardware.radio@1.0-26.so:system/lib/android.hardware.radio@1.0-26.so \

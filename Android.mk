@@ -44,3 +44,6 @@ ALL_MODULES.$(LOCAL_MODULE).INSTALLED := \
     $(ALL_MODULES.$(LOCAL_MODULE).INSTALLED) $(SYMLINKS)
 
 endif
+
+include $(LOCAL_PATH)/proprietary/priv-app/Android.mk
+

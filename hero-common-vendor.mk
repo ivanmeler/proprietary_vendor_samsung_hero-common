@@ -14,6 +14,7 @@
 
 # Pick up overlay for features that depend on non-open-source files
 PRODUCT_PACKAGES += \
-   libGLES_mali
+   libGLES_mali \
+   HealthService
 
 $(call inherit-product, vendor/samsung/hero-common/hero-common-vendor-blobs.mk)
